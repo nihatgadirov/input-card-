@@ -1,0 +1,93 @@
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    background-color: rgb(198, 197, 197);
+}
+.container{
+    width: 1200px;
+height: 650px;
+background-color: whitesmoke;
+
+}
+.left-side{
+    position: absolute;
+    left: 200px;
+    
+}
+img{
+    width: 600px;
+    height: 600px;
+}
+h2{
+    position: absolute;
+    bottom: 25%;
+    width: 600px;
+    color: white;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+
+}
+h5{
+     position: absolute;
+    bottom: 15%;
+    font-size: small;
+    color:#FCF8F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    text-align: center;
+}
+.right-side{
+    position: absolute;
+    
+    right: 260px;
+}
+h1{
+    color: #C17754;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+  
+}
+
+input {
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #e8793e;
+    outline: none;
+    margin-bottom: 13px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: #dfb9a5;
+}
+
+input:focus {
+    border-bottom: 2px solid #e8793e;
+}
+button{
+    margin-top: 35px;
+    width: 375px;
+    height: 40px;
+    background-color: #DB844E;
+    color: #E5E5E5;
+    border: none;
+    border-radius: 6px;
+}
+.bottom-side{
+    position: absolute;
+    bottom: 7px ;
+    right: 120px;
+    display: flex;
+  gap: 20px;
+}
